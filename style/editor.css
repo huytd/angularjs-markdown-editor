@@ -1,0 +1,90 @@
+* {
+	font-family: 'Gentium Book Basic', serif;
+}
+
+body, html {
+	padding: 0; margin: 0;
+	background: #FFF;
+	width: 100%; height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.left, .right {
+	width: 50%;
+	display: inline;
+	float: left;
+	height: 100%;
+}
+
+.left {
+	background: #EEE;
+	margin: 0; padding: 0;
+}
+
+.left textarea {
+	margin: 10px;
+	background: none; border: none;
+	outline: none;
+	width: 98%; height: 90%;
+	font-size: 1.1em;
+}
+
+.right #parsed-content{
+	width: 98%; height: 90%;
+	margin: 10px;
+	font-size: 1.1em;
+	overflow-y: scroll;
+}
+
+.left #post-title, #parsed-title {
+	font-size: 1.3em;
+	padding: 8px; margin: 5px;
+	padding-left: 5px;
+	border: none;
+	width: 95%;
+	outline: none;
+	background: none; font-weight: bold;
+}
+
+.right #parsed-content code {
+	border: 1px solid #DDD;
+	background: #EEE;
+	padding: 2px; padding-left: 5px; padding-right: 5px;
+	border-radius: 5px;
+}
+
+.right #parsed-content blockquote p {
+	border-left: 5px solid #EEE;
+	padding-left: 10px;
+}
+
+button.icon.action {
+	position: absolute;
+	bottom: 10px; right: 10px;
+	width: 60px; height: 60px;
+	border-radius: 30px;
+	background: #e74c3c;
+	color: #FFF;
+	border: none;
+	font-size: 1.5em;
+	outline: none; cursor: pointer;
+}
+
+.toolbox {
+	position: absolute;
+	bottom: 10px; left: 10px;
+	width: 100%; height: 30px;
+	text-align: left;
+}
+
+.toolbox button {
+	background: #e67e22;
+	width: 30px; height: 30px;
+	font-size: 1.0em;
+	outline: none; cursor: pointer;
+	color: #FFF;
+	border: none;
+	border-radius: 30px;
+	margin-right: 5px;
+}
