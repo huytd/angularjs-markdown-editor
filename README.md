@@ -34,4 +34,5 @@ This is a fully working markdown editor written in AngularJS.
 - Select more header tag (H2, H3, H4,...)
 - Insert URL at selected line
 - Insert image at selected line
+- Integrate social sharing, wordpress posting
 - _add more later..._
