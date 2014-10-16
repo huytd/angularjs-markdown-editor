@@ -3,8 +3,7 @@ AngularJS Markdown Editor
 
 This is a fully working markdown editor written in AngularJS. 
 
-**Browser support**
-Tested on Google Chrome only
+**Browser support**: Tested on Google Chrome only
 
 **Libraries used:**
 - Christopher Jeffrey's [Marked library](https://github.com/chjj/marked) for rendering markdown content.
