@@ -37,4 +37,15 @@ This is a fully working markdown editor written in AngularJS.
 - Insert URL at selected line
 - Insert image at selected line
 - Integrate social sharing, wordpress posting
+- Scroll sync
+- Export to HTML
+- Table support
+- Syntax highlighter in preview zone
+- Toggle preview zone on/off
+- Saving document
+- Loading document 
+- Loading document from HTML page
+- Insert inline comment/notes
+- Animated UI
+- Coding style, reusable codes...
 - _add more later..._
